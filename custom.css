@@ -1,0 +1,147 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* Header */
+.header {
+    background: teal;
+    color: white;
+    padding: 1rem 0;
+}
+
+.header .logo {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.header .logo span {
+    color: goldenrod;
+}
+
+.navbar ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navbar ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Hero Section */
+.hero {
+    background: linear-gradient(to right, teal, goldenrod);
+    color: white;
+    text-align: center;
+    padding: 3rem 1rem;
+}
+
+.hero .btn {
+    background: goldenrod;
+    color: white;
+    border: none;
+    padding: 0.8rem 1.5rem;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.hero .btn:hover {
+    background: #d4a007;
+}
+
+/* Products Section */
+.products-section {
+    padding: 2rem 1rem;
+    background-color: #fff;
+}
+
+.section-title {
+    text-align: center;
+    color: teal;
+    margin-bottom: 1.5rem;
+}
+
+.products-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+    padding: 0 1rem;
+}
+
+.product-card {
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    text-align: center;
+    padding: 1rem;
+}
+
+.product-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.product-card img {
+    max-width: 100%;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 1rem;
+}
+
+.product-card h3 {
+    color: teal;
+    font-size: 1.2rem;
+    margin: 0.5rem 0;
+}
+
+.product-card .price {
+    color: goldenrod;
+    font-size: 1rem;
+    font-weight: bold;
+    margin: 0.5rem 0;
+}
+
+.product-card .btn {
+    background: teal;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.product-card .btn:hover {
+    background: #004d4d;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    background: teal;
+    color: white;
+    padding: 1rem 0;
+    margin-top: 2rem;
+}
+
